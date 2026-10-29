@@ -239,7 +239,7 @@
       eyebrow:{ms:"EKONOMI",en:"ECONOMY"},
       title:{ms:"Ekonomi",en:"Economy"},
       desc:{ms:"Terokai aset dan aktiviti ekonomi melalui Geopark serta pelancongan untuk memahami potensi wilayah dan pembangunan ekonomi Negeri Selangor.",en:"Explore economic assets and activity through Geopark and tourism to understand regional potential and Selangor's economic development."},
-      primary:{ms:"Buka Geopark ↗",en:"Open Geopark ↗",url:"https://geospatialpms-glitch.github.io/Dashboard-Geopark-Gombak-Hulu-Langat/"},
+      primary:{ms:"Buka Geopark ↗",en:"Open Geopark ↗",url:"https://geospatialpms-glitch.github.io/-NEW-Dashboard-Geopark-Gombak-Hulu-Langat/"},
       secondary:{ms:"Lihat Semua Aplikasi →",en:"View All Applications →",url:"#dashboard-tematik"},
       overlay:null
     },
@@ -563,7 +563,7 @@
     {
       titleMs:"Dashboard Geopark Gombak-Hulu Langat", titleEn:"Gombak-Hulu Langat Geopark Dashboard",
       type:"Dashboard", icon:"◉",
-      url:"https://geospatialpms-glitch.github.io/Dashboard-Geopark-Gombak-Hulu-Langat/",
+      url:"https://geospatialpms-glitch.github.io/-NEW-Dashboard-Geopark-Gombak-Hulu-Langat/",
       keywords:["geopark","gombak","hulu langat","warisan geologi","geoheritage","geological heritage","geotourism","geopelancongan","konservasi","geologi"]
     },
     {
@@ -575,7 +575,7 @@
     {
       titleMs:"Kemudahan Kesihatan Negeri Selangor", titleEn:"Selangor Health Facilities",
       type:"Dashboard", icon:"✚",
-      url:"https://geospatialpms-glitch.github.io/Kemudahan-Kesihatan-Negeri-Selangor/",
+      url:"https://geospatialpms-glitch.github.io/Kemudahan-Kesihatan-Negeri-Selangor/?v=045ba474",
       keywords:["kesihatan","health","hospital","klinik","healthcare"]
     },
     {
