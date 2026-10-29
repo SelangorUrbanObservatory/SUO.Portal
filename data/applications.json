@@ -1,8 +1,8 @@
 {
   "meta": {
     "name": "SUO Applications Registry",
-    "version": "1.4.2",
-    "updated": "2026-10-21",
+    "version": "1.4.3",
+    "updated": "2026-10-29",
     "source_of_truth": true,
     "note": "All active SUO applications, dashboards, StoryMaps and core platforms should be registered here first.",
     "theme_taxonomy": {
@@ -110,7 +110,7 @@
       "tag_en": "Geopark",
       "description_ms": "Warisan geologi, geoheritage dan maklumat spatial Geopark Gombak-Hulu Langat.",
       "description_en": "Geological heritage, geoheritage and spatial information for the Gombak-Hulu Langat Geopark.",
-      "url": "https://geospatialpms-glitch.github.io/Dashboard-Geopark-Gombak-Hulu-Langat/",
+      "url": "https://geospatialpms-glitch.github.io/-NEW-Dashboard-Geopark-Gombak-Hulu-Langat/",
       "status": "active",
       "host": "GitHub Pages",
       "keywords": [
@@ -223,7 +223,7 @@
       "tag_en": "Health",
       "description_ms": "Taburan dan capaian kemudahan kesihatan.",
       "description_en": "Distribution and accessibility of healthcare facilities.",
-      "url": "https://geospatialpms-glitch.github.io/Kemudahan-Kesihatan-Negeri-Selangor/",
+      "url": "https://geospatialpms-glitch.github.io/Kemudahan-Kesihatan-Negeri-Selangor/?v=045ba474",
       "status": "active",
       "host": "GitHub Pages",
       "keywords": [
