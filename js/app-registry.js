@@ -84,7 +84,7 @@
   const renderCatalog=async()=>{
     const host=document.getElementById("registryAppGrid");
     if(!host) return;
-    const apps=(await all()).filter(x=>x.status==="active"||x.status==="soon");
+    const apps=(await all()).filter(x=>(x.status==="active"||x.status==="soon") && x.id!=="geoportal" && x.id!=="selangor-3d-geoportal" && x.id!=="3d-geoportal" && x.id!=="suo-3d-geoportal");
     const rank={geoportal:1,platform:1,sismaps:1,smartdesa:1,dashboard:2,storymap:3,soon:4};
     apps.sort((a,b)=>(rank[a.group]||9)-(rank[b.group]||9)||title(a,"ms").localeCompare(title(b,"ms"),"ms",{sensitivity:"base"}));
     host.innerHTML=apps.map(catalogCard).join("");
