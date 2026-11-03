@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded",()=>{
   const search=document.getElementById("appSearch");
   const filters=[...document.querySelectorAll(".filter")];
   const empty=document.getElementById("empty");
+  const count=document.getElementById("visibleAppCount");
   let activeFilter="all";
 
   const apply=()=>{
@@ -18,6 +19,7 @@ document.addEventListener("DOMContentLoaded",()=>{
       if(show) visible++;
     });
     empty?.classList.toggle("show",cards.length>0&&visible===0);
+    if(count) count.textContent=cards.length ? visible+" aplikasi" : "";
   };
 
   search?.addEventListener("input",apply);
