@@ -459,7 +459,7 @@
       "year": "2026",
       "access": "Awam",
       "description": "Inventori spatial tapak perkuburan untuk dashboard tematik.",
-      "repository": "geospatialpms-glitch/Tapak-Perkuburan-Negeri-Selangor",
+      "repository": "selangorurbanobservatory/Tapak-Perkuburan-Negeri-Selangor",
       "paths": [
         "cemeteries.geojson",
         "Tanah_Perkuburan_Selangor_2026.shp"
@@ -467,7 +467,7 @@
       "applications": [
         "Dashboard Tapak Perkuburan"
       ],
-      "open_url": "https://geospatialpms-glitch.github.io/Tapak-Perkuburan-Negeri-Selangor/"
+      "open_url": "https://selangorurbanobservatory.github.io/Tapak-Perkuburan-Negeri-Selangor/"
     },
     {
       "id": "UODC-019",
