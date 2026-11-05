@@ -587,7 +587,7 @@
     {
       titleMs:"Tapak Perkuburan Negeri Selangor", titleEn:"Selangor Cemetery Sites",
       type:"Dashboard", icon:"◆",
-      url:"https://geospatialpms-glitch.github.io/Tapak-Perkuburan-Negeri-Selangor/",
+      url:"https://selangorurbanobservatory.github.io/Tapak-Perkuburan-Negeri-Selangor/",
       keywords:["perkuburan","cemetery","kubur","burial","tanah perkuburan"]
     },
     {
