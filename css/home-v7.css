@@ -3726,51 +3726,51 @@ html[lang="en"] .v7-hero .v7-hero-title-lockup{
 
 
 /* v7.30.0 — compact, responsive thematic dashboard layout */
-#dashboard-tematik .v7-apps-grid.v7-apps-grid-equal{
+#registryDashboardGrid{
   grid-template-columns:repeat(4,minmax(0,1fr))!important;
   gap:12px!important;
 }
-#dashboard-tematik .v7-apps-grid-equal .v7-app,
-#dashboard-tematik .v7-apps-grid-equal .v7-app.featured,
-#dashboard-tematik .v7-apps-grid-equal .v7-app-equal{
+#registryDashboardGrid .v7-app,
+#registryDashboardGrid .v7-app.featured,
+#registryDashboardGrid .v7-app-equal{
   min-height:238px!important;
   height:238px!important;
   padding:18px!important;
   border-radius:18px!important;
 }
-#dashboard-tematik .v7-apps-grid-equal .v7-app h3,
-#dashboard-tematik .v7-apps-grid-equal .v7-app.featured h3{
+#registryDashboardGrid .v7-app h3,
+#registryDashboardGrid .v7-app.featured h3{
   font-size:17px!important;
   line-height:1.15!important;
   margin:7px 0 5px!important;
 }
-#dashboard-tematik .v7-apps-grid-equal .v7-app p{
+#registryDashboardGrid .v7-app p{
   font-size:10px!important;
   line-height:1.4!important;
   -webkit-line-clamp:2;
   max-width:100%!important;
 }
-#dashboard-tematik .v7-apps-grid-equal .v7-app-link{
+#registryDashboardGrid .v7-app-link{
   margin-top:8px!important;
   font-size:11px!important;
 }
 @media(max-width:1080px){
-  #dashboard-tematik .v7-apps-grid.v7-apps-grid-equal{
+  #registryDashboardGrid{
     grid-template-columns:repeat(3,minmax(0,1fr))!important;
   }
 }
 @media(max-width:760px){
-  #dashboard-tematik .v7-apps-grid.v7-apps-grid-equal{
+  #registryDashboardGrid{
     grid-template-columns:repeat(2,minmax(0,1fr))!important;
   }
 }
 @media(max-width:520px){
-  #dashboard-tematik .v7-apps-grid.v7-apps-grid-equal{
+  #registryDashboardGrid{
     grid-template-columns:1fr!important;
   }
-  #dashboard-tematik .v7-apps-grid-equal .v7-app,
-  #dashboard-tematik .v7-apps-grid-equal .v7-app.featured,
-  #dashboard-tematik .v7-apps-grid-equal .v7-app-equal{
+  #registryDashboardGrid .v7-app,
+  #registryDashboardGrid .v7-app.featured,
+  #registryDashboardGrid .v7-app-equal{
     min-height:250px!important;
     height:250px!important;
   }
