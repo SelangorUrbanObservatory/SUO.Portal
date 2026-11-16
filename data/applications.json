@@ -1,8 +1,8 @@
 {
   "meta": {
     "name": "SUO Applications Registry",
-    "version": "1.4.3",
-    "updated": "2026-10-29",
+    "version": "1.4.4",
+    "updated": "2026-11-16",
     "source_of_truth": true,
     "note": "All active SUO applications, dashboards, StoryMaps and core platforms should be registered here first.",
     "theme_taxonomy": {
@@ -164,7 +164,7 @@
       "tag_en": "Environment",
       "description_ms": "Pemantauan dan penerokaan spatial Kawasan Sensitif Alam Sekitar Negeri Selangor.",
       "description_en": "Spatial monitoring and exploration of Environmentally Sensitive Areas across Selangor.",
-      "url": "https://geospatialpms-glitch.github.io/KSAS-Negeri-Selangor/",
+      "url": "https://selangorurbanobservatory.github.io/Dashboard-KSAS-Negeri-Selangor/",
       "status": "active",
       "host": "GitHub Pages",
       "keywords": [
@@ -392,29 +392,32 @@
       ]
     },
     {
-      "id": "sia",
+      "id": "kpu",
       "group": "dashboard",
-      "title_ms": "SIA Negeri Selangor",
-      "title_en": "Selangor SIA",
-      "tag_ms": "Penilaian Impak Sosial",
-      "tag_en": "Social Impact Assessment",
-      "description_ms": "Dashboard pemantauan dan maklumat Social Impact Assessment (SIA) bagi Negeri Selangor.",
-      "description_en": "Monitoring and information dashboard for Social Impact Assessment (SIA) in Selangor.",
-      "url": "https://geospatialpms-glitch.github.io/SIA-Negeri-Selangor/",
+      "title_ms": "Kawasan Pertanian Utama (KPU)",
+      "title_en": "Key Agricultural Areas (KPU)",
+      "tag_ms": "Pertanian",
+      "tag_en": "Agriculture",
+      "description_ms": "Penerokaan spatial kawasan pertanian dan maklumat berkaitan sektor pertanian Negeri Selangor.",
+      "description_en": "Spatial exploration of agricultural areas and related information for Selangor.",
+      "url": "https://selangorurbanobservatory.github.io/Dashboard-KPU-Negeri-Selangor/",
       "status": "active",
       "host": "GitHub Pages",
       "keywords": [
-        "sia",
-        "social impact assessment",
-        "penilaian impak sosial",
-        "SIA Selangor",
-        "impak pembangunan"
+        "kpu",
+        "kawasan pertanian utama",
+        "pertanian",
+        "agriculture",
+        "tanaman",
+        "food security",
+        "keselamatan makanan"
       ],
-      "card_class": "sia",
+      "card_class": "kpu",
       "preview": true,
       "themes": [
-        "planning",
-        "landdev"
+        "landdev",
+        "economy",
+        "environment"
       ]
     },
     {
