@@ -1,6 +1,11 @@
 {
   "meta": {
-    "count": 50
+    "count": 62,
+    "version": "2.0",
+    "updated": "2026-11-25",
+    "legacyCount": 50,
+    "sourceCheckedCount": 12,
+    "notes": "Rekod asal dikekalkan; definisi baharu ialah ringkasan sumber yang disemak, bukan petikan verbatim. Kelulusan pemakaian rasmi SUO masih diperlukan."
   },
   "glossary": [
     {
@@ -202,6 +207,248 @@
     {
       "term": "Versioning",
       "definition": "Kaedah merekod dan mengurus perubahan antara versi data atau kod."
+    },
+    {
+      "term": "Guna Tanah Semasa",
+      "definition": "Penggunaan tanah sedia ada, termasuk ciri semula jadi dan binaan manusia.",
+      "id": "SUO-LU-001",
+      "category": "Guna Tanah",
+      "aliases": [
+        "GTS"
+      ],
+      "source": {
+        "document": "Manual GIS Rancangan Pemajuan Versi 3",
+        "section": "3.2",
+        "page": "3-8",
+        "pageType": "printed",
+        "catalogQuery": "Manual GIS"
+      },
+      "context": "Klasifikasi dan metadata rancangan pemajuan",
+      "reviewStatus": "source_checked",
+      "definitionType": "paraphrase",
+      "version": "1.0"
+    },
+    {
+      "term": "Guna Tanah Komited",
+      "definition": "Penggunaan tanah bagi pembangunan yang telah diberi Kebenaran Merancang dalam tempoh sah laku dan telah memulakan kerja tanah atau pembinaan tetapi belum mendapat Sijil Siap dan Pematuhan (CCC).",
+      "id": "SUO-LU-002",
+      "category": "Guna Tanah",
+      "aliases": [],
+      "source": {
+        "document": "Manual GIS Rancangan Pemajuan Versi 3",
+        "section": "3.0",
+        "page": "3-1",
+        "pageType": "printed",
+        "catalogQuery": "Manual GIS"
+      },
+      "context": "Klasifikasi dan metadata rancangan pemajuan",
+      "reviewStatus": "source_checked",
+      "definitionType": "paraphrase",
+      "version": "1.0"
+    },
+    {
+      "term": "Guna Tanah Zoning",
+      "definition": "Penggunaan tanah yang dizonkan untuk pembangunan masa hadapan berdasarkan Rancangan Tempatan yang diwartakan.",
+      "id": "SUO-LU-003",
+      "category": "Guna Tanah",
+      "aliases": [
+        "Zoning"
+      ],
+      "source": {
+        "document": "Manual GIS Rancangan Pemajuan Versi 3",
+        "section": "3.0",
+        "page": "3-1",
+        "pageType": "printed",
+        "catalogQuery": "Manual GIS"
+      },
+      "context": "Klasifikasi dan metadata rancangan pemajuan",
+      "reviewStatus": "source_checked",
+      "definitionType": "paraphrase",
+      "version": "1.0"
+    },
+    {
+      "term": "Guna Tanah 1",
+      "definition": "Jenis guna tanah pada peringkat pertama klasifikasi; terdiri daripada 12 jenis.",
+      "id": "SUO-LU-004",
+      "category": "Guna Tanah",
+      "aliases": [
+        "gtn1"
+      ],
+      "source": {
+        "document": "Manual GIS Rancangan Pemajuan Versi 3",
+        "section": "3.2",
+        "page": "3-8",
+        "pageType": "printed",
+        "catalogQuery": "Manual GIS"
+      },
+      "context": "Klasifikasi dan metadata rancangan pemajuan",
+      "reviewStatus": "source_checked",
+      "definitionType": "paraphrase",
+      "version": "1.0",
+      "classification": [
+        "Perumahan",
+        "Komersial",
+        "Industri",
+        "Institusi dan Kemudahan Masyarakat",
+        "Tanah Lapang dan Rekreasi",
+        "Tanah Pembangunan",
+        "Pengangkutan",
+        "Infrastruktur dan Utiliti",
+        "Pertanian",
+        "Hutan",
+        "Badan Air",
+        "Pantai"
+      ]
+    },
+    {
+      "term": "Guna Tanah 2",
+      "definition": "Kategori guna tanah yang memperincikan jenis guna tanah 1.",
+      "id": "SUO-LU-005",
+      "category": "Guna Tanah",
+      "aliases": [
+        "gtn2"
+      ],
+      "source": {
+        "document": "Manual GIS Rancangan Pemajuan Versi 3",
+        "section": "3.2",
+        "page": "3-8",
+        "pageType": "printed",
+        "catalogQuery": "Manual GIS"
+      },
+      "context": "Klasifikasi dan metadata rancangan pemajuan",
+      "reviewStatus": "source_checked",
+      "definitionType": "paraphrase",
+      "version": "1.0"
+    },
+    {
+      "term": "Guna Tanah 3",
+      "definition": "Perincian aktiviti bagi setiap kategori guna tanah 2.",
+      "id": "SUO-LU-006",
+      "category": "Guna Tanah",
+      "aliases": [
+        "gtn3"
+      ],
+      "source": {
+        "document": "Manual GIS Rancangan Pemajuan Versi 3",
+        "section": "3.2",
+        "page": "3-8",
+        "pageType": "printed",
+        "catalogQuery": "Manual GIS"
+      },
+      "context": "Klasifikasi dan metadata rancangan pemajuan",
+      "reviewStatus": "source_checked",
+      "definitionType": "paraphrase",
+      "version": "1.0"
+    },
+    {
+      "term": "Klasifikasi Guna Tanah Semasa",
+      "definition": "Pengkategorian penggunaan tanah berdasarkan fungsi atau aktiviti kepada tiga peringkat: guna tanah 1, 2 dan 3.",
+      "id": "SUO-LU-007",
+      "category": "Guna Tanah",
+      "aliases": [],
+      "source": {
+        "document": "Manual GIS Rancangan Pemajuan Versi 3",
+        "section": "3.2",
+        "page": "3-8",
+        "pageType": "printed",
+        "catalogQuery": "Manual GIS"
+      },
+      "context": "Klasifikasi dan metadata rancangan pemajuan",
+      "reviewStatus": "source_checked",
+      "definitionType": "paraphrase",
+      "version": "1.0"
+    },
+    {
+      "term": "UPI",
+      "definition": "Unique Parcel Identifier berdasarkan National Digital Cadastral Database (NDCDB).",
+      "id": "SUO-LU-008",
+      "category": "Guna Tanah",
+      "aliases": [
+        "Unique Parcel Identifier"
+      ],
+      "source": {
+        "document": "Manual GIS Rancangan Pemajuan Versi 3",
+        "section": "Jadual 3.5",
+        "page": "3-17",
+        "pageType": "printed",
+        "catalogQuery": "Manual GIS"
+      },
+      "context": "Klasifikasi dan metadata rancangan pemajuan",
+      "reviewStatus": "source_checked",
+      "definitionType": "paraphrase",
+      "version": "1.0"
+    },
+    {
+      "term": "kod_gtn",
+      "definition": "Kod guna tanah 3 dalam metadata guna tanah semasa.",
+      "id": "SUO-LU-009",
+      "category": "Guna Tanah",
+      "aliases": [],
+      "source": {
+        "document": "Manual GIS Rancangan Pemajuan Versi 3",
+        "section": "Jadual 3.5",
+        "page": "3-17",
+        "pageType": "printed",
+        "catalogQuery": "Manual GIS"
+      },
+      "context": "Klasifikasi dan metadata rancangan pemajuan",
+      "reviewStatus": "source_checked",
+      "definitionType": "paraphrase",
+      "version": "1.0"
+    },
+    {
+      "term": "luas_h",
+      "definition": "Luas dalam unit hektar dalam metadata guna tanah semasa.",
+      "id": "SUO-LU-010",
+      "category": "Guna Tanah",
+      "aliases": [],
+      "source": {
+        "document": "Manual GIS Rancangan Pemajuan Versi 3",
+        "section": "Jadual 3.5",
+        "page": "3-17",
+        "pageType": "printed",
+        "catalogQuery": "Manual GIS"
+      },
+      "context": "Klasifikasi dan metadata rancangan pemajuan",
+      "reviewStatus": "source_checked",
+      "definitionType": "paraphrase",
+      "version": "1.0"
+    },
+    {
+      "term": "tahun_data",
+      "definition": "Tahun data dikemas kini dalam metadata guna tanah semasa.",
+      "id": "SUO-LU-011",
+      "category": "Guna Tanah",
+      "aliases": [],
+      "source": {
+        "document": "Manual GIS Rancangan Pemajuan Versi 3",
+        "section": "Jadual 3.5",
+        "page": "3-17",
+        "pageType": "printed",
+        "catalogQuery": "Manual GIS"
+      },
+      "context": "Klasifikasi dan metadata rancangan pemajuan",
+      "reviewStatus": "source_checked",
+      "definitionType": "paraphrase",
+      "version": "1.0"
+    },
+    {
+      "term": "pbt_id",
+      "definition": "Kod PBT merujuk kepada Data Dictionary Sektor Awam (DDSA).",
+      "id": "SUO-LU-012",
+      "category": "Guna Tanah",
+      "aliases": [],
+      "source": {
+        "document": "Manual GIS Rancangan Pemajuan Versi 3",
+        "section": "Jadual 3.5",
+        "page": "3-17",
+        "pageType": "printed",
+        "catalogQuery": "Manual GIS"
+      },
+      "context": "Klasifikasi dan metadata rancangan pemajuan",
+      "reviewStatus": "source_checked",
+      "definitionType": "paraphrase",
+      "version": "1.0"
     }
   ]
 }
